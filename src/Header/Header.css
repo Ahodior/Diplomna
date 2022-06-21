@@ -1,0 +1,56 @@
+/*---Шапка------------------------------------------*/
+.header {
+    background-color: #111516;
+    position: absolute;
+    width: 100%;
+    left: 0;
+    top: 0;
+    z-index: 50;
+}
+.header_container {
+    display: flex;
+    min-height: 70px;
+    align-items: center;
+}
+.header__logo {
+    font-size: 32px;
+    font-weight: 700;
+    color: white;
+}
+.header__menu {
+    margin: 0px 0px 0px 120px;
+}
+@media (max-width: 922px) {
+    .header__menu {
+        margin: 0px 0px 0px 80px;
+    }    
+}
+@media (max-width: 767px) {
+    .header__menu {
+        margin: 0px 0px 0px 50px;
+    }    
+}
+.menu {
+    padding: 5px 0;
+}
+.menu__list {
+    display: flex;
+    flex-wrap: wrap;
+}
+.menu__item:not(:last-child) {
+    margin: 0px 32px 0px 0px;
+}
+.menu__link {
+    color: white;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 200%;
+}
+.RegLog{
+    color: white;
+    margin-left: auto;
+    padding-left: 20px;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 200%;
+}

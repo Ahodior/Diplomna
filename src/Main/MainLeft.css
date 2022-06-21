@@ -1,0 +1,82 @@
+/*---Лівий блок----------------------------------*/
+.newmanga {
+    width: 700px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    margin-right: 50px;
+}
+.newmanga_conteiner {
+    background-color: #1f2024;
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px; 
+}
+.newglav {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.renewal {
+    display: flex;
+    flex-wrap: wrap;
+    align-content: space-between;
+    background-color: #292a2c;
+    margin-top: 20px;
+    border-radius: 10px;
+}
+.newmanga_nazva {
+    font-size: 24px;
+    font-weight: 700;
+}
+.newmanga_janr {
+    font-size: 16px;
+    font-weight: 600;
+    padding-top: 10px;
+}
+.newmanga_glava{
+    font-size: 16px;
+    font-weight: 500;
+    padding-top: 30px;
+}
+
+
+.C1{
+    font-size: 28px;
+    text-align: center;
+    margin-top: 20px;
+}
+.faqText{
+    font-size: 16px;
+    margin-left: 20px;
+    margin-right: 20px;
+    line-height: 1.5;
+}
+.faq{
+    max-width: 700px;
+    margin: 0px auto;
+    box-sizing: content-box;
+    padding-top: 75px;
+}
+.faqcon{
+    background-color: #1f2024;
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    margin-top: 20px;
+    margin-bottom: 20px; 
+}
+
+.mangainfo{
+    display: grid;
+    grid-template-columns: auto auto;
+    background-color: #1f2024;
+    min-height: 400px;
+    margin-top: 20px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+.faqimg{
+    width: 250px;
+    height: 370px;
+    margin: 20px;
+    border-radius: 10px;
+}

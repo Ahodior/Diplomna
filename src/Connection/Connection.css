@@ -1,0 +1,43 @@
+/*---Звязок------------------------------------*/
+.connection {
+    display: flex;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    justify-content: center;
+}
+.contdan {
+    background-color: #111516;
+    width: 100%;
+}
+.contdan_conteiner {
+    display: flex;
+    min-height: 70px;
+    align-items: center;
+}
+.contdan_item {
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.contdan_info{
+    line-height: 30px;
+}
+.sot_item {
+    margin: 0 auto;
+}
+.sot_info {
+    display: flex;
+    align-items: stretch;
+    justify-content: space-between;
+    line-height: 60px;
+}
+.sot_link{
+    background-color: #1f2024;
+    color: white;
+    font-size: 24px;
+    font-weight: 600;
+    margin-left: 30px;
+    margin-right: 30px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 20px;
+}

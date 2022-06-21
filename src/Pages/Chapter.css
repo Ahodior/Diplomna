@@ -1,0 +1,28 @@
+.chapter{
+    margin: 0px auto;
+    box-sizing: content-box;
+    width: 1200px;
+
+}
+.chaptercon{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 15px;
+    background-color: #111516;
+    border-radius: 10px;
+}
+.chapterclic{
+    background-color: #292a2c;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 10px;
+}
+.chapterimg{
+    border-radius: 10px;
+    width: 1200px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 15px;
+    margin-right: 15px;
+}

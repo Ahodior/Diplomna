@@ -1,0 +1,40 @@
+/*---Правий блок ТОП 5 манги--------------------------------------------*/
+.mangatop {
+    width: 400px;
+    padding-top: 30px;
+    padding-bottom: 30px; 
+    margin-left: 50px;
+}
+.mangatop_conteiner {
+    background-color: #1f2024;
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px; 
+}
+.mangatop_item {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.mangatop_img{
+    border-radius: 10%;
+    height: 110px;
+    width: 80px;
+    margin-top: 7px;
+    margin-bottom: 7px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.mangatop_nazva {
+    font-size: 18px;
+    font-weight: 700;
+}
+.mangatop_janr {
+    font-size: 16px;
+    font-weight: 600;
+    padding-top: 10px;
+}
+.mangatop_peregladi {
+    font-size: 13px;
+    font-weight: 600;
+    padding-top: 50px;
+}
